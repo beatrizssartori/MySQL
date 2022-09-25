@@ -69,7 +69,7 @@ CREATE DATABASE Sys2;
 USE Sys2;
 
 CREATE TABLE Clicad(
-Codcli int auto_increment primary key not null,
+Clicod int auto_increment primary key not null,
 Clinome varchar(30) not null,
 Cliend varchar(40) not null,
 Clicep char(9) not null,
